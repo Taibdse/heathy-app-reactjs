@@ -1,0 +1,9 @@
+.btn {
+  background: linear-gradient(var(--secondary-color), var(--primary-color));
+  width: 296px;
+  height: 56px;
+  color: var(--white-color);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}

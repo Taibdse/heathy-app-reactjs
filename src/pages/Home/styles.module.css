@@ -1,0 +1,24 @@
+.page-header {
+  height: 316px;
+  display: flex;
+}
+
+.page-header__left {
+  width: 40%;
+  height: 100%;
+  background-image: url("../../assets/img/home-page-header.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page-header__right {
+  width: 60%;
+  height: 100%;
+}
+
+.circle-wrapper {
+  width: 181px;
+  height: 181px;
+}

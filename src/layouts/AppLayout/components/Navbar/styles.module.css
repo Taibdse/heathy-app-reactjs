@@ -1,0 +1,32 @@
+.navbar {
+  background-color: var(--main-dark-color);
+  color: var(--white-color);
+}
+
+.navbar .nav-link {
+  color: var(--white-color);
+  margin-right: 25px;
+}
+
+.nav-link.active {
+  color: var(--primary-color);
+}
+
+.nav-link-icon {
+  margin-right: 10px;
+}
+
+.menu-dropdown {
+  width: 280px;
+  background-color: #777777;
+  color: var(--white-color);
+}
+
+.menu-dropdown .btn-close {
+  color: var(--primary-color);
+}
+
+.menu-dropdown-list > div {
+  height: 72px;
+  cursor: pointer;
+}

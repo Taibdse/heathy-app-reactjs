@@ -1,0 +1,59 @@
+.chart-wrapper {
+  background-color: var(--main-dark-color);
+  height: 304px;
+  padding: 20px;
+}
+
+.chart-wrapper__header {
+  font-size: 15px;
+  display: flex;
+  color: var(--white-color);
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.chart-wrapper__footer__btn {
+  width: 56px;
+  border-radius: 11px;
+  background-color: var(--white-color);
+  color: var(--secondary-color);
+  outline: none;
+  border: none;
+  margin-right: 10px;
+}
+
+.chart-wrapper__footer__btn.active {
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+}
+
+.my-exercise-record-box {
+  background-color: var(--main-dark-color);
+  height: 264px;
+  padding: 20px;
+}
+
+.my-exercise-record-box__header {
+  font-size: 15px;
+  display: flex;
+  color: var(--white-color);
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.my-exercise-record-box__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  overflow-y: auto;
+  max-height: 200px;
+}
+
+.my-exercise-record-box__content > div {
+  flex: 1;
+}
+
+.my-diary-section__header {
+  font-size: 22px;
+}

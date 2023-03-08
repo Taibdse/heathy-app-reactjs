@@ -1,0 +1,10 @@
+.sub-title {
+  font-size: 18px;
+  color: var(--white-color);
+  margin-right: 10px;
+}
+
+.title {
+  font-size: 25px;
+  color: var(--white-color);
+}

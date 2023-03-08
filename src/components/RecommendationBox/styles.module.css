@@ -1,0 +1,16 @@
+.recomendation-box {
+  background-color: var(--secondary-dark-color);
+  text-align: center;
+  height: 144px;
+  padding: 30px;
+}
+
+.recomendation-box__title {
+  color: var(--secondary-color);
+  font-size: 22px;
+}
+
+.recomendation-box__sub-title {
+  color: var(--white-color);
+  font-size: 18px;
+}

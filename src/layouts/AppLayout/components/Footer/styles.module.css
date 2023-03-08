@@ -1,0 +1,22 @@
+.footer {
+  background-color: var(--main-dark-color);
+  height: 128px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: var(--white-color);
+  font-weight: 300;
+  font-size: 11px;
+  gap: 40px;
+}
+
+.footer > div {
+  line-height: 16px;
+}

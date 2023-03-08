@@ -1,0 +1,35 @@
+.exercie-list {
+  list-style-type: circle;
+  margin: 0;
+  padding: 0;
+}
+
+.exercie-list__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #777777;
+  padding: 10px 0;
+}
+
+.exercie-list__item > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.exercie-list__item__title {
+  color: var(--white-color);
+  font-size: 15px;
+}
+
+.exercie-list__item__calo {
+  color: var(--secondary-color);
+  font-size: 15px;
+}
+
+.exercie-list__item__time {
+  color: var(--secondary-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}

@@ -1,0 +1,16 @@
+.menu-type-card {
+  width: 116px;
+  height: 138px;
+  background-image: url("../../assets/img/hex.svg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--white-color);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  cursor: pointer;
+}
